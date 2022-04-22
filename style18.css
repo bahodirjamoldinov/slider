@@ -1,0 +1,613 @@
+@font-face{
+	font-family: 'Bahodir1';
+	src:url("fonts2/Roboto-bold.ttf")format('truetype');
+}
+@font-face{
+	font-family: 'Bahodir2';
+	src:url("fonts2/Roboto-Regular.ttf")format('truetype');
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.contanier{
+	width: 100%;
+	height: 4521px;
+	/*border:1px solid red;*/
+}
+.contanier .hider{
+	width: 100%;
+	height: 730px;
+	/*border:1px solid red;*/
+	background-image: url(rasm/banner.png);
+	background-size: 100% 120%;
+	    background-attachment: fixed;
+
+
+}
+.contanier .hider .tepa{
+	width: 100%;
+	height: 70px;
+	background-color:black;
+	position: fixed;
+	color: white;
+
+
+}
+.contanier .hider .tepa .row{
+	width: 90%;
+	height: 70px;
+	/*border:1px solid blue;*/
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.contanier .hider .tepa .chap{
+	width: 30%;
+	height: 70px;
+	/*border:1px solid blue;*/
+	font-family: 'Bahodir1';
+	display: flex;
+}
+.contanier .hider .tepa .chap .cha{
+	width: 55px;
+	height: 55px;
+	/*border:1px solid blue;*/
+	font-family: 'Bahodir1';
+	border-radius: 30px;
+	text-align: center;
+	line-height: 55px;
+	font-size: 35px;
+	background-color: blue;
+	margin: 6px 0px 0px 0px;
+
+
+}
+.contanier .hider .tepa .chap .on{
+	width: 200px;
+	height: 55px;
+	/*border:1px solid blue;*/
+	font-family: 'Bahodir1';
+	text-align: center;
+	line-height: 55px;
+	font-size: 35px;
+	margin: 8px 0px 0px 0px;
+}
+.contanier .hider .tepa .ong{
+	width: 550px;
+	height: 70px;
+	/*border:1px solid blue;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Bahodir2';
+}
+a{
+	color: white;
+	text-decoration-line: none;
+}
+.contanier .hider .tepa .ong .on2{
+	width: 90px;
+	height: 30px;
+	/*border:1px solid blue;*/
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	background-color: blue;
+	border-radius: 8px;
+	/*display: flex;*/
+	/*font-family: 'Bahodir2';*/
+}
+.contanier .hider .tepa .ong .on2:hover{
+	 
+	color: black;
+	background-color: #ffc107;
+	transition: all 1s;
+	 }
+
+.contanier .hider .past{
+	width: 100%;
+	height: 700px;
+	/*border:1px solid red;*/
+	display: flex;
+	align-items: center;
+align-content: center;
+}
+.contanier .hider .past .asd{
+	width: 90%; 
+	height: 400px;
+	margin: 0px auto;
+}
+.contanier .hider .past .asd .dsa{
+	width: 700px; 
+	height: 300px;
+	/*border:1px solid red;*/
+	display: flex;
+    flex-wrap: wrap;
+	align-content: space-around;
+}
+.contanier .hider .past .asd .dsa .asd1{
+	width: 400px; 
+	height: 50px;
+	/*border:1px solid red;*/
+	color: #ffcc33;
+	font-family: 'Bahodir2';
+	line-height: 70px;
+}
+.contanier .hider .past .asd .dsa .asd2{
+	width: 400px; 
+	height: 20px;
+	/*border:1px solid red;*/
+	color: white;
+	font-family: 'Bahodir2';
+	font-size: 20px;
+}
+.contanier .hider .past .asd .dsa .asd3{
+	width: 600px; 
+	height: 60px;
+	/*border:1px solid red;*/
+	color: white;
+	font-family: 'Bahodir1';
+	font-size: 60px;
+}
+.contanier .hider .past .asd .dsa .asd4{
+	width: 270px; 
+	height: 50px;
+	/*border:1px solid red;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'Bahodir2';
+}
+.contanier .hider .past .asd .dsa .asd4 .asd11{
+	width: 130px; 
+	height: 40px;
+	/*border:1px solid red;*/
+	border-radius: 20px;
+	background-color: white;
+	text-align: center;
+	line-height: 40px;
+}
+.contanier .hider .past .asd .dsa .asd4 .asd11 a{
+	color: blue;
+}
+.contanier .hider .past .asd .dsa .asd4 .asd22{
+	width: 130px; 
+	height: 40px;
+	/*border:1px solid red;*/
+	border-radius: 20px;
+	background-color: blue;
+	text-align: center;
+	line-height: 40px;
+}
+.contanier .hider .past .asd .dsa .asd4 .asd22 a{
+	color:#ffcc33 ;
+}
+.contanier .row1{
+	 width: 90%;
+	 height: 360px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+}
+.contanier .row1 .soz1{
+	 width: 100px;
+	 height: 80px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 line-height: 130px;
+	 color: blue;
+}
+.contanier .row1 .soz2{
+	 width: 650px;
+	 height: 80px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 font-size: 50px;
+	 font-family: 'Bahodir1';
+}
+.contanier .row1 .soz3{
+	 width: 90%;
+	 height: 200px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.contanier .bolim2{
+	width: 100%;
+	height: 600px;
+	/*border:1px solid red;*/
+	background-image: url(rasm/serve.jpg);
+	background-size: 100% 100%;
+}
+.contanier .bolim2 .row2{
+	 width: 90%;
+	 height: 500px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+}
+.contanier .bolim2 .row2 .soz1{
+	 width: 100px;
+	 height: 80px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 line-height: 130px;
+	 color: blue;
+}
+.contanier .bolim2 .row2 .soz2{
+	 width: 200px;
+	 height: 90px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 color: white;
+	 font-size: 40px;
+	 font-family: 'Bahodir1';
+}
+.contanier .bolim2 .row2 .soz4{
+	 width: 270px;
+	 height: 100px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 display: flex;
+	justify-content: space-between;
+}
+.contanier .bolim2 .row2 .soz4 .zos1{
+	 width: 130px; 
+	height: 40px;
+	/*border:1px solid red;*/
+	border-radius: 20px;
+	background-color: blue;
+	text-align: center;
+	line-height: 40px;
+
+}
+
+.contanier .bolim2 .row2 .soz4 .zos1 a{
+   color: #ffcc33;
+}
+.contanier .bolim2 .row2 .soz4 .zos2{
+	 width: 130px; 
+	height: 40px;
+	/*border:1px solid red;*/
+	border-radius: 20px;
+	background-color: white;
+	text-align: center;
+	line-height: 40px;
+
+}
+.contanier .bolim2 .row2 .soz4 .zos2 a{
+   color: blue;
+}
+.contanier .bolim2 .row2 .soz3{
+	 width: 95%;
+	 height: 250px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 display: flex;
+	 justify-content: space-around;
+}
+.contanier .bolim2 .row2 .soz3 .soz33{
+	 width: 400px;
+	 height: 250px;
+	 border:2px solid #cccccc;
+	 margin: 0px auto;
+	 border-radius: 10px;
+}
+.contanier .bolim2 .row2 .soz3 .soz33:hover{
+	 background-color: #3366ff;
+	 border:0px solid blue;
+
+}
+.contanier .bolim2 .row2 .soz3 .soz33 .ikon{
+	 width: 35px;
+	 height:90px;
+	 /*border:2px solid red;*/
+	 margin: 0px auto;
+	 color: #ffcc33;
+	 font-size: 35px;
+	 line-height: 100px;
+}
+.contanier .bolim2 .row2 .soz3 .soz33 .asdw{
+	 width: 220px;
+	 height:35px;
+	 /*border:2px solid red;*/
+	 margin: 0px auto;
+	 color: white;
+	 font-size: 20px;
+	 font-family: 'Bahodir1';
+	 text-align: center;
+}
+.contanier .bolim2 .row2 .soz3 .soz33 .asdf{
+	 width: 350px;
+	 height:80px;
+	 /*border:2px solid red;*/
+	 margin: 0px auto;
+	 color: white;
+	 font-family: 'Bahodir2';
+	 text-align: center;
+}
+.contanier .row3{
+	 width: 90%;
+	 height: 1080px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 
+}
+.contanier .row3 .soz1{
+	 width: 100px;
+	 height: 80px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 line-height: 130px;
+	 color: blue;
+}
+.contanier .row3 .soz2{
+	width: 250px;
+	 height: 90px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 font-size: 35px;
+	 font-family: 'Bahodir1';
+}
+.contanier .row3 .rasim{
+	width: 95%;
+	 height:850px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  	align-content: space-around;
+}
+
+.contanier .row3 .rasim .rasm{
+	width: 400px;
+	 height: 250px;
+	 /*border:1px solid red;*/
+}
+.contanier .bolim4{
+	width: 100%;
+	 height: 450px;
+	 /*border:1px solid red;*/
+	background-image: url(rasm/stats.jpg);
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	 
+}
+.contanier .bolim4 .bolim44{
+	width: 70%;
+	 height: 250px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 display: flex;
+	 justify-content: space-between;
+}
+.contanier .bolim4 .bolim44 .conter{
+	width:150px;
+	 height: 250px;
+	 /*border:1px solid red;*/
+}
+.contanier .bolim4 .bolim44 .conter .ikon4{
+	 width: 35px;
+	 height:90px;
+	 /*border:2px solid red;*/
+	 margin: 0px auto;
+	 color: #ffcc33;
+	 font-size: 45px;
+	 line-height: 100px;
+}
+.contanier .bolim4 .bolim44 .conter .text{
+	 width: 100px;
+	 height:60px;
+	 /*border:2px solid red;*/
+	 margin: 0px auto;
+	 color: white;
+	 font-size: 45px;
+	 text-align: center;
+	 font-family: 'Bahodir1';
+}
+ 
+.contanier .bolim4 .bolim44 .conter .nom{
+	 width: 150px;
+	 height:60px;
+	 /*border:2px solid red;*/
+	 margin: 0px auto;
+	 color: white;
+	 text-align: center;
+	 font-family: 'Bahodir1';
+	 line-height: 60px;
+}
+.contanier .bolim5{
+	width: 90%;
+	 height:550px;
+	 /*border:1px solid red;*/
+	display: flex;
+	 margin: 0px auto;
+    flex-wrap: wrap;
+	justify-content: space-between; 
+	align-items:center;
+	 
+}
+.contanier .bolim5 .hamkor{
+	width: 300px;
+	 height: 200px;
+	 border:3px solid #cccccc;
+}
+.contanier .bolim6{
+	width: 100%;
+	 height:650px;
+	 /*border:1px solid blue;*/
+	background-image: url(rasm/contact.jpg);
+	background-size: 100% 100%;
+}
+.contanier .bolim6 .row6{
+	width: 90%;
+	 height:650px;
+	 /*border:1px solid blue;*/
+	 margin: 0px auto;
+	 
+}
+.contanier .bolim6 .row6 .soz6{
+     width: 100px;
+	 height: 80px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 line-height: 130px;
+	 color: blue;
+}
+.contanier .bolim6 .row6 .soz62{
+   width: 650px;
+	 height: 80px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 font-size: 50px;
+	 font-family: 'Bahodir1';
+	 text-align: center;
+	 color: white;
+}
+.contanier .bolim6 .row6 .inmut{
+     width: 100%;
+	 height: 350px;
+	 /*border:1px solid red;*/
+	 display: flex;
+	 justify-content: space-between;
+}
+.contanier .bolim6 .row6 .inmut .bolim1{
+     width: 49%;
+	 height:250px;
+	 /*border:1px solid red;*/
+	 display: flex;
+	  flex-wrap: wrap;
+	 align-content: space-between;
+}
+.contanier .bolim6 .row6 .inmut .bolim22{
+     width: 49%;
+	 height:300px;
+	 /*border:1px solid red;*/
+}
+.contanier .bolim6 .row6 .sub{
+	width: 180px;
+	 height:55px;
+	 margin: 0px auto;
+	 border-radius: 5px;
+	 color: white;
+	 font-size: 30px;
+	 text-align: center;
+	 line-height: 55px;
+	 background-color: blue;
+	 
+
+}
+.contanier .bolim6 .row6 .sub:hover{
+	 background-color: orange;
+	 transition: all 1s;
+	 
+}
+.contanier .footer{
+	width: 100%;
+	height: 100px;
+	 /*border:1px solid red;*/
+	 background-color: black;
+
+}
+.contanier .footer .row7{
+	width: 90%;
+	height: 100px;
+	 /*border:1px solid red;*/
+	 margin: 0px auto;
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+
+}
+.contanier .footer .row7 .menyu{
+	width: 40%;
+	height: 98px;
+	 /*border:1px solid red;*/
+	display: flex;
+	font-size: 20px;
+	color: white;
+	justify-content: space-between;
+	align-items: center;	 
+
+}
+.contanier .footer .row7 .ik{
+	width: 30%;
+	height: 98px;
+	 /*border:1px solid red;*/
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;	 
+
+}
+.contanier .footer .row7 .ik .iko{
+	width: 60%;
+	height: 50px;
+	 /*border:1px solid blue;*/
+	display: flex;
+	justify-content:space-around;
+
+}
+.contanier .footer .row7 .ik .iko .ikon{
+	 height: 50px;
+	 /*border:1px solid white;*/
+	 font-size: 30px;
+ color: white;
+border-radius: 30px;
+}
+.contanier .footer .row7 .logo{
+	width: 20%;
+	height: 70px;
+	/*border:1px solid blue;*/
+	font-family: 'Bahodir1';
+	display: flex;
+
+
+}
+.contanier .footer .row7 .logo .lo1{
+width: 55px;
+	height: 55px;
+	/*border:1px solid blue;*/
+	font-family: 'Bahodir1';
+	border-radius: 30px;
+	text-align: center;
+	line-height: 55px;
+	font-size: 35px;
+	color: white;
+	background-color: blue;
+	margin: 6px 0px 0px 0px;
+
+	
+
+}
+.contanier .footer .row7 .logo .lo2{
+	width: 200px;
+	height: 55px;
+	/*border:1px solid blue;*/
+	font-family: 'Bahodir1';
+	text-align: center;
+	line-height: 55px;
+	font-size: 35px;
+	margin: 8px 0px 0px 0px;
+	color: white;
+	
+
+}
+
+ 
+
+
+
+
+
+
+
+
+ 
+
